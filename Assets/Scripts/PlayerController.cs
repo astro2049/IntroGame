@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         scoreText.text = "Score: " + count.ToString();
         if (count >= numPickups)
         {
-            winText.text = "You Win";
+            winText.text = "You Win!";
         }
     }
 
